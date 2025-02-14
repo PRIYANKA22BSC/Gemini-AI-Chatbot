@@ -5,10 +5,15 @@ A powerful AI chatbot application built using React, Tailwind CSS, and the Gemin
 
 ## 📌 Features
 -- ✅ AI Chatbot – Interact with the Gemini AI for instant responses.
+
 -- ✅ User-Friendly UI – Modern and responsive design with Tailwind CSS.
+
 -- ✅ Real-time Conversations – Ask questions and get immediate answers.
+
 -- ✅ Context Retention – Keeps track of chat history for better interactions.
+
 -- ✅ API Integration – Uses the Gemini API for smart responses.
+
 -- ✅ Lightweight & Fast – Built with React for smooth user experience.
 
 ## 🛠️ Tech Stack
