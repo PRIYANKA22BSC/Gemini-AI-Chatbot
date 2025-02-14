@@ -4,22 +4,24 @@ A powerful AI chatbot application built using React, Tailwind CSS, and the Gemin
 #Link-[https://gemini-ai-chatbot-orcin-pi.vercel.app/]
 
 ## 📌 Features
--- ✅ AI Chatbot – Interact with the Gemini AI for instant responses.
+- ✅ AI Chatbot – Interact with the Gemini AI for instant responses.
 
--- ✅ User-Friendly UI – Modern and responsive design with Tailwind CSS.
+- ✅ User-Friendly UI – Modern and responsive design with Tailwind CSS.
 
--- ✅ Real-time Conversations – Ask questions and get immediate answers.
+- ✅ Realtime Conversations – Ask questions and get immediate answers.
 
--- ✅ Context Retention – Keeps track of chat history for better interactions.
+- ✅ Context Retention – Keeps track of chat history for better interactions.
 
--- ✅ API Integration – Uses the Gemini API for smart responses.
+- ✅ API Integration – Uses the Gemini API for smart responses.
 
--- ✅ Lightweight & Fast – Built with React for smooth user experience.
+- ✅ Lightweight & Fast – Built with React for smooth user experience.
 
 ## 🛠️ Tech Stack
--- Frontend: React.js, Tailwind CSS
--- AI Model: Google Gemini API
--- State Management: React Hooks (useState, useContext)
+- Frontend: React.js, Tailwind CSS
+  
+- AI Model: Google Gemini API
+  
+- State Management: React Hooks (useState, useContext)
 
 
  ## 📢 Future Improvements
