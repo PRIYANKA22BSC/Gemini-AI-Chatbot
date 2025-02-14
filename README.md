@@ -1,4 +1,4 @@
-## Gemini Clone 🚀
+## Gemini AI Chatbot 🚀
 A powerful AI chatbot application built using React, Tailwind CSS, and the Gemini API, providing seamless AI-powered interactions with a clean and responsive UI.
 
 #Link-[https://gemini-ai-chatbot-orcin-pi.vercel.app/]
