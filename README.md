@@ -26,4 +26,5 @@ A powerful AI chatbot application built using React, Tailwind CSS, and the Gemin
 
  ## 📢 Future Improvements
 🔹 Add authentication (Google Login).
+
 🔹 Enable voice-to-text input.
