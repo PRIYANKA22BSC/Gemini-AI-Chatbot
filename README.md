@@ -1,8 +1,30 @@
-# React + Vite
+## Gemini AI Chatbot 🚀
+A powerful AI chatbot application built using React, Tailwind CSS, and the Gemini API, providing seamless AI-powered interactions with a clean and responsive UI.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Link-[https://gemini-ai-chatbot-orcin-pi.vercel.app/]
 
-Currently, two official plugins are available:
+## 📌 Features
+- ✅ AI Chatbot – Interact with the Gemini AI for instant responses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ User-Friendly UI – Modern and responsive design with Tailwind CSS.
+
+- ✅ Realtime Conversations – Ask questions and get immediate answers.
+
+- ✅ Context Retention – Keeps track of chat history for better interactions.
+
+- ✅ API Integration – Uses the Gemini API for smart responses.
+
+- ✅ Lightweight & Fast – Built with React for smooth user experience.
+
+## 🛠️ Tech Stack
+- Frontend: React.js, Tailwind CSS
+  
+- AI Model: Google Gemini API
+  
+- State Management: React Hooks (useState, useContext)
+
+
+ ## 📢 Future Improvements
+🔹 Add authentication (Google Login).
+
+🔹 Enable voice-to-text input.
