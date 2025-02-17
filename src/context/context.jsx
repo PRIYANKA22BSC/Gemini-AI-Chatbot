@@ -30,15 +30,19 @@ if(prompt !== undefined){
     response = await run(prompt);
     setRecentprompt(prompt);
 }
-else{
+else if (prompt == undefined){
     setPrevprompt(prev=>[...prev,input]);
     setRecentprompt(input);
     response=await run(input); 
 }
+else{
+    setPrevprompt(prev=>[...prev,e]);
+     response=await run(e);
+}
+
 
 let responseArray = response.split("**");
 let newResponse = "";
-
 for (let i = 0; i < responseArray.length; i++) {
     if (i === 0 || i % 2 !== 1) {
         newResponse += responseArray[i]; 

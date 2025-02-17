@@ -1,4 +1,4 @@
-import { GoogleGenerativeAI } from "@google/generative-ai"; // Use import instead of require
+ import { GoogleGenerativeAI } from "@google/generative-ai"; // Use import instead of require
 
 const apiKey = "AIzaSyDTZPovDjneRWtaaoXaUw6jukgEvL1P7YQ";
 const genAI = new GoogleGenerativeAI(apiKey);
