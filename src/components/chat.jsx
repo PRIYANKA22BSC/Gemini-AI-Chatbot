@@ -66,22 +66,22 @@ return(
    
 </div></>:<>
 
-<div className='overflow-y-auto'  >
+<div className='overflow-y-auto  max-sm:!mt-10 '  >
     
-    <div className='mt-10 justify-start justify-self-center w-5xl flex items-center gap-4 text-stone-100 '>
-        <img src='/images/profilepic.png' className='w-10 rounded-full'></img>
-        <div className='flex flex-col'>
+    <div className='lg:mt-10 lg:justify-start lg:justify-self-center lg:w-5xl lg:flex lg:items-center gap-4 text-stone-100 max-sm:flex max-sm:h-6xl '>
+        <img src='/images/profilepic.png' className='lg:w-10 rounded-full max-sm:h-10'></img>
+        <div className='flex flex-col '>
         <p>{recentprompt}</p>
         </div>
       
     </div>
-    <div className='!mt-8 flex items-start gap-4 justify-start justify-self-center w-5xl  h-70'>
-    <img src='/images/gemini-logo.png' className='w-10 animate-pulse'></img>
+    <div className='!mt-8 lg:flex lg:items-start gap-4 lg:justify-start lg:justify-self-center lg:w-5xl max-sm:3xl lg:h-70 max-sm:h-96 max-sm:flex '>
+    <img src='/images/gemini-logo.png' className='lg:w-10 animate-pulse max-sm:h-10'></img>
     {loading?<div className=" !mt-2  flex flex-col gap-2 justify-start justify-self-center h-80 w-5xs animate-pulse">
 
-<div className='bg-gray-500 rounded-sm py-2 w-4xl'></div>
-<div className='bg-gray-500 rounded-sm py-2 w-4l'></div>
-<div className='bg-gray-500 rounded-sm py-2 w-4xl'></div>
+<div className='bg-gray-500 rounded-sm lg:py-2 lg:w-4xl max-sm:w-60 max-sm:py-1'></div>
+<div className='bg-gray-500 rounded-sm lg:py-2 lg:w-4xl max-sm:w-60 max-sm:py-1'></div>
+<div className='bg-gray-500 rounded-sm lg:py-2 lg:w-4xl max-sm:w-60 max-sm:py-1'></div>
 
 </div>:<div  className='text-stone-100' dangerouslySetInnerHTML={{ __html: result}} />}
     </div>
@@ -92,8 +92,8 @@ return(
     
 
 
-<div className='bg-neutral-900   text-stone-400 lg:flex lg:items-center lg:justify-between lg:place-self-center lg:w-5xl !mt-15 rounded-full lg:justify-self-center max-sm:3xl  max-sm:flex max-sm:justify-between max-sm:items-center max-sm:justify-self-center  max-sm:w-65 '>
-<input  value={input} onChange={(e)=>setInput(e.target.value)} type="text" placeholder='Ask Gemini' className=' bg-neutral-900 max-sm:px-8 lg:w-4xl  lg:pl-3 lg:py-4 rounded-full text-stone-400 max-sm:py-3 max-sm:w-50 outline-0  '></input>
+<div className='bg-neutral-900   text-stone-400 lg:flex lg:items-center lg:justify-between lg:place-self-center lg:w-5xl !mt-15 rounded-full lg:justify-self-center max-sm:3xl  max-sm:flex max-sm:justify-between max-sm:items-center max-sm:justify-self-center  max-sm:w-65 max-sm:!mt-10 '>
+<input  value={input} onChange={(e)=>setInput(e.target.value)} type="text" placeholder='Ask Gemini' className=' bg-neutral-900 max-sm:px-8 lg:w-4xl  lg:pl-3 lg:py-4 rounded-full text-stone-400 max-sm:py-3 max-sm:w-50 outline-0'></input>
 <div className=' flex  !mr-3 gap-2 '>
 {/*<MdOutlineAddPhotoAlternate className='text-2xl'/>
 <AiOutlineAudio className='text-2xl' />*/}
